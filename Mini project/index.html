@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo List</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f2f2f2;
+      text-align: center;
+    }
+
+    .todo {
+      background: white;
+      width: 250px;
+      margin: auto;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      text-align: left;
+      margin: 8px 0;
+      cursor: pointer;
+    }
+
+    input:checked + span {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+<h2>My Todo List</h2>
+
+<div class="todo">
+  <label>
+    <input type="checkbox">
+    <span>Do homework</span>
+  </label>
+
+  <label>
+    <input type="checkbox">
+    <span>Clean room</span>
+  </label>
+
+  <label>
+    <input type="checkbox">
+    <span>Read book</span>
+  </label>
+</div>
+
+</body>
+</html>
